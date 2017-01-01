@@ -1,5 +1,5 @@
 {
-  "name": "mqtt",
+  "name": "mqtt-example",
   "version": "1.0.0",
   "description": "Simple MQTT PUB/SUB using node.js",
   "main": "index.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vinayakkankanwadi/mqtt/issues"
   },
-  "homepage": "https://github.com/vinayakkankanwadi/mqtt#readme"
+  "homepage": "https://github.com/vinayakkankanwadi/mqtt#readme",
+  "dependencies": {
+    "mqtt": "^2.1.3"
+  }
 }
